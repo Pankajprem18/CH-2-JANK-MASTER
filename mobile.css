@@ -1,0 +1,52 @@
+body {
+    font-size: 16px;
+    padding: 10px;
+    line-height: 1.5;
+  }
+  
+  .container {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically by default */
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  @media (min-width: 768px) { /* Tablets */
+    .container {
+      flex-direction: row;
+    }
+  }
+  
+  @media (min-width: 1024px) { /* Desktops */
+    body {
+      font-size: 18px;
+    }
+  }
+  .container {
+    width: 100%;
+    max-width: 1200px;
+  }
+  img, video {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+  .nav-menu {
+    display: none;
+  }
+  
+  @media (min-width: 768px) {
+    .nav-menu {
+      display: block;
+    }
+  }
+  button {
+    padding: 12px 20px;
+    font-size: 16px;
+  }
+          
